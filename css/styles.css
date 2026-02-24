@@ -133,7 +133,7 @@ a {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     font-weight: 700;
     transition: all 0.2s;
     font-size: 0.875rem;
@@ -148,14 +148,14 @@ a {
 }
 
 .btn-primary:hover {
-    background-color: var(--accent);
+    background-color: var(--secondary);
 }
 
 .btn-secondary {
     background-color: transparent;
 
     color: var(--primary);
-    box-shadow: 0 10px 15px -3px rgba(153, 0, 51, 0.25);
+    box-shadow: 0 10px 15px -3px rgba(58, 183, 233, 0.25);
     height: 3rem;
     padding: 0 2rem;
     font-size: 1rem;
@@ -164,7 +164,7 @@ a {
 }
 
 .btn-secondary:hover {
-    background-color: var(--accent);
+    background-color: var(--secondary);
     transform: scale(1.05);
 }
 
@@ -224,7 +224,7 @@ a {
 .brand-logo {
     height: 2.5rem;
     width: auto;
-    background-color: rgba(255, 255, 255, 0.9);
+    /* background-color: rgba(255, 255, 255, 0.9); */
     border-radius: 0.25rem;
     padding: 0.25rem;
 }
