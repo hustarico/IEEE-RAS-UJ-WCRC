@@ -302,6 +302,7 @@ a {
     padding: 1rem;
     display: none;
     flex-direction: column;
+    align-items: center;
 }
 
 .mobile-menu.active {
